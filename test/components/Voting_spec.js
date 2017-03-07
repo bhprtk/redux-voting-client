@@ -60,4 +60,8 @@ describe('Voting', () => {
 		expect(buttons[0].textContent).to.contain('Voted');
 	});
 
+	it('renders just the winner when there is one', () => {
+		
+	})
+
 });
